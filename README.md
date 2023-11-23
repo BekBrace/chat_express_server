@@ -1,5 +1,8 @@
 Simple Chat Application with Socket.io
 
+![node](https://github.com/BekBrace/chat_express_server/assets/60483846/69df7897-0e05-4848-98e2-50799f4e20b6)
+
+
 This is a basic chat application built using Node.js, Express, and Socket.io. 
 
 The application allows users to connect to a chat room, send messages, and receive real-time updates about other users' activities.
