@@ -14,7 +14,7 @@ Clone the repository:
 
 ```
 bash
-git clone https://github.com/your-username/simple-chat-app.git
+git clone https://github.com/your-username/simple-chat-app.git](https://github.com/BekBrace/chat_express_server.git
 ```
 
 Navigate to the project directory:
