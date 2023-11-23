@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    margin: 10px 0;
+}
+
+#messages li.system {
+    color: #888;
+}
+
+#messages li.user1 {
+    color: #0084ff;
+}
+
+#messages li.user2 {
+    color: #ff6f61;
+}
+
+#messages li.user3 {
+    color: #4caf50;
+}
+
+#form {
+    display: flex;
+    margin-top: 20px;
+}
+
+#m {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#send-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling the dots */
+
+.typing-indicator {
+    color: #888;
+  }
+  
+  .typing-indicator span {
+    display: inline-block;
+    margin-right: 5px;
+    animation: fade 1s infinite;
+  }
+  
+  @keyframes fade {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  
