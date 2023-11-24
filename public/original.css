@@ -1,21 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
 }
 
 #chat-container {
-    flex: 1;
-    max-width: 600px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 #messages {
@@ -32,17 +28,22 @@ body {
     color: #888;
 }
 
-#messages li.user {
-    color: #041e6b;
+#messages li.user1 {
+    color: #0084ff;
 }
 
-/* We will keep it for the moment  */
-/* #form {
+#messages li.user2 {
+    color: #ff6f61;
+}
+
+#messages li.user3 {
+    color: #4caf50;
+}
+
+#form {
     display: flex;
-    margin-top: auto; /* Push the form to the bottom */
-    background-color: #fff; /* Set the background color of the form */
-    padding: 10px; /* Add padding to the form */
-} */
+    margin-top: 20px;
+}
 
 #m {
     flex: 1;
@@ -62,6 +63,7 @@ body {
 }
 
 /* Styling the dots */
+
 .typing-indicator {
     color: #0084ff;
   }
@@ -80,3 +82,5 @@ body {
       opacity: 0.5;
     }
   }
+
+  

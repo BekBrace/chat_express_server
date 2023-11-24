@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html>
 <head>
   <title>Chat Application</title>
@@ -15,5 +15,24 @@
   <script src="/socket.io/socket.io.js"></script>
   <script src="app.js"></script>
 </body>
-</html>
+</html> -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Chat App</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <ul id="messages"></ul>
+    <form id="form" action="">
+        <input id="m" autocomplete="off" />
+        <button id="send-btn">Send</button>
+    </form>
+    <!-- This line includes the Socket.IO library directly from the CDN (Content Delivery Network). It fetches the Socket.IO JavaScript file from the specified URL (https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js). Including libraries from a CDN can improve loading times because the file may be cached by the browser if it has been loaded from the same CDN on another site. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
