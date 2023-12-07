@@ -5,6 +5,8 @@ Simple Chat Application with Socket.io
 
 This is a basic chat application built using Node.js, Express, and Socket.io. 
 
+[Last YouTube tutorial in 2023]
+
 The application allows users to connect to a chat room, send messages, and receive real-time updates about other users' activities.
 
 Installation
